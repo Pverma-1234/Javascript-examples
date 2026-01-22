@@ -8,22 +8,7 @@
 
 
 // Arrow function : another way of using functions
-const add = (a,b) => {
-    a+b;
-}
+const add = (a,b) => a+b;
 
-
-const  sub = (a,b) => {
-    a-b;
-}
-
-const div = (a,b) => {
-    a/b;
-}
-
-const multiply = (a,b) =>{
-    a*b;
-}
-
-const r=add(10,20);
-console.log(r);
+const r1=add(10,20);
+console.log(r1);
